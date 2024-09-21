@@ -20,6 +20,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Plugins.System.Acts.GoToLayout,
+		C3.Plugins.InstantGamesBridge.Acts.Initialize,
+		C3.Plugins.System.Acts.WaitForPreviousActions,
 		C3.Plugins.InstantGamesBridge.Acts.ShowInterstitial,
 		C3.Plugins.InstantGamesBridge.Acts.ShowBanner
 	];
